@@ -26,7 +26,7 @@ header > h1 {
   border: 3px solid rgb(238, 140, 137);
   border-radius: 4px;
   text-align: center;
-  width: 200px;
+  width: fit-content;
   color: white;
   font-size: 46px;
   padding: 15px 20px;
@@ -45,13 +45,13 @@ header > h1 {
 #user-label {
     position: absolute;
     top: 30px;
-    left: -25px;
+    left: -65px;
 }
 
 #computer-label {
     position: absolute;
     top: 30px;
-    right: -30px;
+    right: -77px;
 }
 
 .result {
@@ -82,17 +82,17 @@ header > h1 {
 
 .choice:hover {
   cursor: pointer;
-  background: #ec5252;
+  background: #5276ec;
 }
 
 #action-message {
     text-align: center;
+    margin-top: 20px;
     color: white;
     font-family: Asap, sans-serif;
     font_weight: bold;
     font-size: 20px;
-    margin-top: 20px;
-
+    margin-bottom: 200px;
 }
 
 .green-glow {
